@@ -1,0 +1,67 @@
+@import "colors";
+
+.top_sell_head {color: rgb(138, 136, 136); 
+    padding: 5px 10px 0px; 
+    margin-top: 30px;
+    margin-left: 5%;
+    letter-spacing: 1px; 
+    text-underline-position: under;
+ }
+.list_top_selling_product {
+    // border: 1px solid red;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+
+
+    >div {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 8px;
+        margin-bottom: 40px;
+        height: 500px;
+        box-sizing: border-box;
+        // justify-content: center;
+        text-align: left;
+
+        // box-shadow: 5px 10px 18px #ccc;
+        >div {
+            // border: 1px solid red; 
+            // box-shadow: 5px 10px 18px #ccc;
+            border-radius: 10px;
+            width: 100%;
+            max-height: 400px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            img {
+                // border: 1px solid red; 
+                
+                height: auto;
+                width: 100%;
+                // object-fit: containe;
+                border-radius: 10px;
+                // box-shadow: 2px 17px 11px 7px rgba(0,0,0,0.12);
+                // -webkit-box-shadow: 2px 17px 11px 7px rgba(0,0,0,0.12);
+                // -moz-box-shadow: 2px 17px 11px 7px rgba(0,0,0,0.12);    
+            }
+        }
+        p { font-size: 15px; 
+            margin: 0; 
+            color: $kesaria;
+            padding: 0px;
+            height: 25px;
+        }
+        button{width: 80%; border: rgb(248, 216, 185) solid 1px; color: $kesaria}
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+}

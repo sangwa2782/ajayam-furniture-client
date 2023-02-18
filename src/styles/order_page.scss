@@ -1,0 +1,133 @@
+@import 'colors';
+
+.bb {
+    background-color: rgb(250, 210, 149);
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 0px 15px !important;
+    font-size: 23px !important;
+}
+
+.order_container {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .order_item_box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        >div {
+            // border: 1px solid red;
+            padding: 2%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 50%;
+            }
+        }
+        .order_right {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            // border: 1px solid red;
+            >div {
+                display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: $kesaria;
+                    font-size: 20px;
+
+                >div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    
+
+                    button {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 30px;
+                        background-color: $green;
+                        margin: 2%;
+                        font-size: 30px;
+                        color: #fff;
+                        border: none;
+                    }
+
+                    input {
+                        width: 25%;
+                        text-align: center;
+                        padding: 5px;
+                        border-radius: 20px;
+                        border: none;
+                    }
+                }
+            }
+        }
+        .calculate {
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            >div {
+                text-align: center;
+                // border: 1px solid blue;
+                padding: 8px;
+                table {
+                    tr{
+                        margin-top: 5px;
+                    }
+                }
+
+                >div {
+                    // border: 1px solid red;
+                    h4 {
+                        // background: #A6DD92;
+                        margin-top: 35px;
+                        margin-bottom: 20px;
+                        padding: 10px;
+                        text-align: left;
+                        border-bottom: 1px solid $green;
+                        color: rgb(122, 117, 117);
+                    }
+
+                    >div {
+                        form {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            padding-bottom: 20px;
+
+
+                            input {
+                                width: 60% !important;
+                            }
+                            button {
+                                background-color: $green;
+                                color: #E07B7B;
+                                padding: 15px;
+                                border-radius: 20px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+
+            
+
+            
+        }
+
+        
+    }
+    
+}

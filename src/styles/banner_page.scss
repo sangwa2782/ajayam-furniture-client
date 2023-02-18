@@ -1,0 +1,32 @@
+.ajayam_banner {
+    background: #94C8DC;
+    margin-top: 55px;
+    position: inherit;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    
+    > div {
+        overflow: hidden;
+        img {
+            width: 100%;
+
+            object-fit: contain;
+        }
+
+    }
+
+    >div {
+        color: #fff;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+
+        h2 {
+            
+        }
+        
+    }
+}
